@@ -9,6 +9,13 @@
     "build": "npm run build --prefix frontend"
   },
   "devDependencies": {
-    "concurrently": "^9.1.2"
+    "concurrently": "^9.1.2",
+    "gh-pages": "^6.3.0"
+  },
+  "homepage": "https://vijayv123.github.io/To-Do-App-with-Authentication/",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   }
+
 }
