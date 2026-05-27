@@ -10,7 +10,6 @@
     "build": "npm run build --prefix frontend",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
-    "deploy": "gh-pages -d dis"
   },
   "devDependencies": {
     "concurrently": "^9.1.2",
