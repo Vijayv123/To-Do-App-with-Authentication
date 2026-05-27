@@ -1,12 +1,15 @@
 {
   "name": "todo-auth-frontend",
+  "homepage": "https://vijayv123.github.io/To-Do-App-with-Authentication/",
   "version": "1.0.0",
   "private": true,
   "type": "module",
   "scripts": {
     "dev": "vite --host 0.0.0.0",
     "build": "vite build",
-    "preview": "vite preview --host 0.0.0.0"
+    "preview": "vite preview --host 0.0.0.0",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dis"
   },
   "dependencies": {
     "@vitejs/plugin-react": "^4.3.4",
